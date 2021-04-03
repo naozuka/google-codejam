@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "python",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "interactive_runner.py",
+            "args": ["python", "local_testing_tool.py", "2", "--", "dotnet", "./bin/Debug/netcoreapp3.1/MedianSort.dll"],
+            "console": "internalConsole"
+        }        
+    ]
+}
